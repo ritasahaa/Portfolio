@@ -10,14 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "particles.js": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.22.3",
     "react-router-dom": "^6.22.3",
     "react-tsparticles": "^2.12.2",
     "styled-components": "^6.1.8",
-    "three": "^0.163.0",
     "typewriter-effect": "^2.21.0"
   },
   "devDependencies": {
