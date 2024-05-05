@@ -1,6 +1,13 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+const ProjectContainer=styled.div`
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 300px); 
+`
+
 const Container = styled.div`
   position: relative;
   display: flex;
@@ -66,19 +73,34 @@ const HoverEffect = styled(Container)`
 
 const Projects = () => {
   return (
-    <HoverEffect id="projects">
-      <Image 
-        src="/images/PG_Drive.jpeg"
-        alt="Project Image"
-      />
-      <Overlay>
-        <ProjectName>PG Drive</ProjectName> {/* Added */}
-        <IconContainer>
-          <a href="https://github.com/ritasahaa"><Icon className="fab fa-github"></Icon></a>
-          <a href="https://www.linkedin.com/in/rita-sah-135958182"><Icon className="fab fa-linkedin"></Icon></a>
-        </IconContainer>
-      </Overlay>
-    </HoverEffect>
+    <ProjectContainer>
+      <HoverEffect id="projects">
+        <Image
+          src="/images/Bike.jpeg"
+          alt="Project Image"
+        />
+        <Overlay>
+          <ProjectName>PG Drive</ProjectName> {/* Added */}
+          <IconContainer>
+            <a href="https://github.com/ritasahaa"><Icon className="fab fa-github"></Icon></a>
+            <a href="https://www.linkedin.com/in/rita-sah-135958182"><Icon className="fab fa-linkedin"></Icon></a>
+          </IconContainer>
+        </Overlay>
+      </HoverEffect>
+
+      <HoverEffect id="projects">
+        <Image
+          src="/images/travelbooking.png"
+        />
+        <Overlay>
+          <ProjectName>Travel Management</ProjectName> {/* Added */}
+          <IconContainer>
+            <a href="https://github.com/ritasahaa/travel_booking_system"><Icon className="fab fa-github"></Icon></a>
+            <a href="https://www.linkedin.com/in/rita-sah-135958182"><Icon className="fab fa-linkedin"></Icon></a>
+          </IconContainer>
+        </Overlay>
+      </HoverEffect>
+    </ProjectContainer>
   );
 };
 

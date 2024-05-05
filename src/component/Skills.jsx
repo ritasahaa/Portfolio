@@ -38,7 +38,7 @@ const Skills = () => {
     { name: 'React', url: '/images/react.png' },
     { name: 'SQL', url: '/images/mysql.png' },
     { name: 'JAVA', url: '/images/java.png' },
-    { name: 'C', url: '/images/cx minor change.png' },
+    { name: 'C', url: '/images/c.png' },
     { name: 'Git', url: '/images/git.png' },
   ];
 
