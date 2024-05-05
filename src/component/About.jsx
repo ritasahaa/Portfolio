@@ -93,9 +93,9 @@ const About = () => {
       loop: true,
     });
     // Cleanup function (if necessary)
-    return () => {
-      typewriter.stop(); // Stop typewriter animation on unmount (if needed)
-    };
+    // return () => {
+    //   typewriter.stop(); // Stop typewriter animation on unmount (if needed)
+    // };
   }, []);
 
   return (
