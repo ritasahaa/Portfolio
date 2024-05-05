@@ -8,7 +8,7 @@ const Resu = styled.div`
     align-items: center;
     img {
       width: 700px;
-      max-width: 85%;
+      max-width: 94%;
       height: 470px;
       margin-top: 10rem;
     }
