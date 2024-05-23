@@ -6,6 +6,12 @@ const ProjectContainer=styled.div`
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(2, 300px); 
+
+  @media (max-width: 590px){
+  grid-template-columns: repeat(1,auto); 
+  gap: 2rem;
+
+  }
 `
 
 const Container = styled.div`

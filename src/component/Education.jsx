@@ -19,7 +19,6 @@ const EduDetail = styled.div`
     color: #fff;
     width: 600px;
     margin-left: 9rem;
-    /* Padding-top not needed */
   }
 `;
 
