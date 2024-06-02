@@ -83,7 +83,7 @@ const Experience = () => {
           <p>
             Currently working on various web development projects, gaining hands-on experience with modern technologies and improving coding skills.
           </p>
-          <p>Duration: Present</p>
+          <p>Duration: 1 June 2024 - Present</p>
         </Job>
 
         <Job>
@@ -92,7 +92,7 @@ const Experience = () => {
           <p>
             Completed a virtual internship where I worked on enhancing my skills in web development, focusing on front-end technologies and learn basics about backend technologies.
           </p>
-          <p>Duration: 1 month</p>
+          <p>Duration: 10 April 2024- 10 May 2024</p>
         </Job>
 
         <Job>
@@ -101,7 +101,7 @@ const Experience = () => {
           <p>
           I recently completed a 4-week immersive internship as a Web Development Intern at CodSoft. During this internship, I actively contributed to hands-on projects, honing my practical skills and gaining valuable industry knowledge.
           </p>
-          <p>Duration: 1 month</p>
+          <p>Duration: 1 Feb 2024 - 29 Feb 2024</p>
         </Job>
         </JobDetail>
       </ExpDetail>
