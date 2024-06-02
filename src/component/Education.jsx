@@ -17,8 +17,15 @@ const EduDetail = styled.div`
 
   p {
     color: #fff;
-    width: 600px;
-    margin-left: 9rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 768px) {
+    p {
+      width: 600px;
+      margin-left: 9rem;
+    }
   }
 `;
 
