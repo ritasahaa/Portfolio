@@ -54,17 +54,18 @@ const Education = () => {
         <Graduation className="graduation">
           <h5>Postgraduation:</h5>
           <p>
-            Currently, I am pursuing my MCA from the Institute of Computer Science and Technology, Varanasi, affiliated with A.P.J. Abdul Kalam Technical University.
+           I recently completed my MCA from the Institute of Computer Science and Technology, Varanasi, affiliated with A.P.J. Abdul Kalam Technical University.
           </p>
           <p>Duration: from 2022 to 2024</p>
+          <p>Percentage: <b>78.19%</b> </p>
         </Graduation>
 
         <PostGraduation className="post-graduation">
           <h5>Undergraduation:</h5>
           <p>
-            I have completed my B.Sc. (Maths) from RKDF University.
+            I have completed my B.Sc. (Maths) from Ram Krishna Dharmath Foundation University,Bhopal.
           </p>
-          <p>Marks: 69.27%</p>
+          <p>Percentage: <b>69.27%</b> </p>
         </PostGraduation>
       </div>
     </EduDetail>

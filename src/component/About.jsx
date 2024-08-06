@@ -92,10 +92,7 @@ const About = () => {
       autoStart: true,
       loop: true,
     });
-    // Cleanup function (if necessary)
-    // return () => {
-    //   typewriter.stop(); // Stop typewriter animation on unmount (if needed)
-    // };
+    
   }, []);
 
   return (
@@ -105,10 +102,14 @@ const About = () => {
         <h2>Rita Kumari Sah</h2>
         <h4>I am a <TypewriterSpan id="typewriter"></TypewriterSpan></h4>
         <p>I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning, I am dedicated to delivering high-quality results with a positive attitude and a growth mindset. I am ready to make a meaningful contribution and achieve great things.</p>
+
         {/* Add Link to navigate to Resume */}
-        <HeroButton to="/resume">Check Resume</HeroButton>
+      <HeroButton to="/resume">Check Resume</HeroButton>
       </HeroContent>
-      <HeroImage src="/images/Rita.jpeg" alt="Rita's Image" />
+      <HeroImage 
+      src="/images/Rita.jpeg" 
+      alt="Rita's Image" 
+      />
     </Hero>
   );
 };

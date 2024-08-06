@@ -41,7 +41,8 @@ const Job = styled.div`
   padding: 1.5rem;
   border-radius: 10px;
   width: 100%;
-  max-width: 600px;
+  max-width: 470px;
+  height: 300px;
 
   h3 {
     color: #ffb400;
@@ -78,29 +79,18 @@ const Experience = () => {
         <h2>Experience</h2>
         <JobDetail>
         <Job>
-          <h3>Intern</h3>
-          <h4>LetsGrowMore</h4>
-          <p>
-            Currently working on various web development projects, gaining hands-on experience with modern technologies and improving coding skills.
-          </p>
-          <p>Duration: 1 June 2024 - Present</p>
-        </Job>
-
-        <Job>
           <h3>Virtual Intern</h3>
           <h4>CognoRise</h4>
-          <p>
-            Completed a virtual internship where I worked on enhancing my skills in web development, focusing on front-end technologies and learn basics about backend technologies.
-          </p>
-          <p>Duration: 10 April 2024- 10 May 2024</p>
+          <p>I worked as a <b>Web Developer</b> </p>
+          <p>I worked on a project <b>Travel Booking System,Calculator,Todo List &</b> many more minor project.</p>
+          <p>Duration: 10 Apr 2024 - 10 May 2024</p>
         </Job>
 
         <Job>
           <h3>Virtual Intern</h3>
           <h4>CodSoft</h4>
-          <p>
-          I recently completed a 4-week immersive internship as a Web Development Intern at CodSoft. During this internship, I actively contributed to hands-on projects, honing my practical skills and gaining valuable industry knowledge.
-          </p>
+          <p>I worked as a <b>Web Developer</b> </p>
+          <p>I worked on a project <b>Job Board,Tribute Page,Landing Page &</b> many more minor project.</p>
           <p>Duration: 1 Feb 2024 - 29 Feb 2024</p>
         </Job>
         </JobDetail>

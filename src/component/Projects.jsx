@@ -5,12 +5,16 @@ import styled from 'styled-components';
 const ProjectContainer=styled.div`
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(2, 300px); 
+  grid-template-columns: repeat(3, 350px); 
 
-  @media (max-width: 590px){
+  @media (min-width: 572px) and (max-width: 999px){
+  grid-template-columns: repeat(2,auto); 
+  gap: 2rem;
+  }
+
+  @media (max-width: 571px){
   grid-template-columns: repeat(1,auto); 
   gap: 2rem;
-
   }
 `
 
@@ -80,7 +84,7 @@ const HoverEffect = styled(Container)`
 const Projects = () => {
   return (
     <ProjectContainer>
-      <HoverEffect id="projects">
+      <HoverEffect class="projects">
         <Image
           src="/images/Bike.jpeg"
           alt="Project Image"
@@ -94,7 +98,7 @@ const Projects = () => {
         </Overlay>
       </HoverEffect>
 
-      <HoverEffect id="projects">
+      <HoverEffect class="projects">
         <Image
           src="/images/travelbooking.png"
         />
@@ -106,6 +110,20 @@ const Projects = () => {
           </IconContainer>
         </Overlay>
       </HoverEffect>
+
+      <HoverEffect class="projects">
+        <Image
+          src="/images/book_store.jpeg"
+        />
+        <Overlay>
+          <ProjectName>Book Hub</ProjectName> {/* Added */}
+          <IconContainer>
+            <a href="https://github.com/ritasahaa/book_store"><Icon className="fab fa-github"></Icon></a>
+            <a href="https://www.linkedin.com/in/rita-sah-135958182"><Icon className="fab fa-linkedin"></Icon></a>
+          </IconContainer>
+        </Overlay>
+      </HoverEffect>
+
     </ProjectContainer>
   );
 };
