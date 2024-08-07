@@ -93,7 +93,7 @@ const Projects = () => {
           <ProjectName>PG Drive</ProjectName> {/* Added */}
           <IconContainer>
             <a href="https://github.com/ritasahaa"><Icon className="fab fa-github"></Icon></a>
-            <a href="https://www.linkedin.com/in/rita-sah-135958182"><Icon className="fab fa-linkedin"></Icon></a>
+            <a href="https://pgdrive.netlify.app"><Icon className="fab fa-linkedin"></Icon></a>
           </IconContainer>
         </Overlay>
       </HoverEffect>
@@ -106,7 +106,7 @@ const Projects = () => {
           <ProjectName>Travel Management</ProjectName> {/* Added */}
           <IconContainer>
             <a href="https://github.com/ritasahaa/travel_booking_system"><Icon className="fab fa-github"></Icon></a>
-            <a href="https://www.linkedin.com/in/rita-sah-135958182"><Icon className="fab fa-linkedin"></Icon></a>
+            <a href="https://travelbookingsystem.netlify.app"><Icon className="fab fa-linkedin"></Icon></a>
           </IconContainer>
         </Overlay>
       </HoverEffect>
@@ -119,7 +119,7 @@ const Projects = () => {
           <ProjectName>Book Hub</ProjectName> {/* Added */}
           <IconContainer>
             <a href="https://github.com/ritasahaa/book_store"><Icon className="fab fa-github"></Icon></a>
-            <a href="https://www.linkedin.com/in/rita-sah-135958182"><Icon className="fab fa-linkedin"></Icon></a>
+            <a href="https://bookhouses.netlify.app"><Icon className="fab fa-linkedin"></Icon></a>
           </IconContainer>
         </Overlay>
       </HoverEffect>
